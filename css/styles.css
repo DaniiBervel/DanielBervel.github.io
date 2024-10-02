@@ -11169,5 +11169,16 @@ html {
   animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 }
 
+.software-logo {
+    max-width: 80px; /* Ajusta el tamaño según lo que necesites */
+    max-height: 80px; /* Mantiene la proporción si es necesario */
+}
+
+@media (min-width: 768px) {
+    .software-logo {
+        max-width: 100px; /* Puedes aumentar el tamaño en pantallas más grandes */
+        max-height: 100px;
+    }
+}
 
 
