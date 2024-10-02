@@ -11170,8 +11170,8 @@ html {
 }
 
 .software-logo {
-    max-width: 80px; /* Ajusta el tamaño según lo que necesites */
-    max-height: 80px; /* Mantiene la proporción si es necesario */
+    max-width: 50px; /* Ajusta el tamaño según lo que necesites */
+    max-height: 50px; /* Mantiene la proporción si es necesario */
 }
 
 @media (min-width: 768px) {
