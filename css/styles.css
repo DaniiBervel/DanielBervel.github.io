@@ -11184,15 +11184,15 @@ html {
 
 /* Botón destacado */
 .btn-highlight {
-    background-color: #1abc9c; /* Color cian */
-    color: white;
+    background-color: #1abc9c !important; /* Color cian forzado */
+    color: black !important; /* Color de texto negro inicialmente */
     border-radius: 50px;
     padding: 10px 20px;
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Transiciones suaves */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; /* Transiciones suaves */
 }
 
 .btn-highlight:hover {
-    background-color: #16a085; /* Cian más oscuro al hacer hover */
+    background-color: #16a085 !important; /* Cian más oscuro al hacer hover */
+    color: white !important; /* Texto blanco al hacer hover */
     transform: scale(1.05); /* Un ligero aumento en tamaño al pasar el ratón */
 }
-
