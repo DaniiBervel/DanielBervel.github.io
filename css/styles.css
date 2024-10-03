@@ -11182,3 +11182,16 @@ html {
 }
 
 
+/* Botón destacado */
+.btn-highlight {
+    background-color: #ff6347; /* Color diferente, como rojo o cualquier otro */
+    color: white; /* Color del texto */
+    border-radius: 50px; /* Borde redondeado para un efecto de botón más suave */
+    padding: 10px 20px; /* Añade algo de padding para hacerlo más grande */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transiciones suaves */
+}
+
+.btn-highlight:hover {
+    background-color: #ff4500; /* Color al pasar el ratón */
+    transform: scale(1.05); /* Un ligero aumento en tamaño al pasar el ratón */
+}
