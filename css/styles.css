@@ -6657,8 +6657,9 @@ textarea.form-control-lg {
 
 .text-bg-primary {
   color: #fff !important;
-  background-color: RGBA(26, 188, 156, var(--bs-bg-opacity, 1)) !important;
+  background-color: rgba(10, 25, 47, var(--bs-bg-opacity, 1)) !important; /* Azul marino */
 }
+
 
 .text-bg-secondary {
   color: #fff !important;
@@ -11121,9 +11122,9 @@ html {
  * ----------------------------------------
  */
 
-@keyframes text-pop-up-top {
+@keyframes text-fade-in-up {
   0% {
-    transform: translateY(100%);
+    transform: translateY(20px);
     opacity: 0;
   }
   100% {
@@ -11132,8 +11133,8 @@ html {
   }
 }
 
-.text-pop-up-top {
-  animation: text-pop-up-top 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+.text-fade-in-up {
+  animation: text-fade-in-up 0.9s ease-out both;
 }
 
 
